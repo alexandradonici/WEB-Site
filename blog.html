@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head> 
+        <title>
+            Bucuresti
+        </title>
+        <link  href="buc2.css" rel="stylesheet">
+        <script src="myJavaScript.js"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        </head>
+   
+    <body > 
+        <nav id="nav_bar" class="navbar">
+            <ul class="navList">
+                <li><a class="dada" href="Bucuresti_atractii.html"><i class="fa fa-fw fa-home"></i>ACASĂ</a></li>
+                <li class="dropdown" ><a id="reflink" class="blockline" href="javascript:void(0)" ><i class="fa fa-fw fa-plane"></i>ATRACȚII TURISTICE</a>
+                    <div class="dropborder" >
+                        <div class="dropdown-content">
+                            <a class="dr" href="muzee.html">MUZEE</a>
+                            <a class="dr" href="institutii.html">INSTITUȚII</a>
+                            <a class="dr" href="parcuri.html">PARCURI</a>
+                             <a class="dr" href="monumente.html">MONUMENTE</a>
+                            <a class="dr" href="pb.html">PIEȚE ȘI BULEVARDE</a>
+                            <a class="dr" href="agrement.html">LOCURI DE AGREMENT</a>
+                    </div>
+                    </div>
+                </li>
+                <li><a class="dada" href="harta.html"><i class="fa fa-fw fa-map"></i>HARTĂ</a></li>
+                <li ><a class="dada" href="contact.html"><i class="fa fa-fw fa-envelope"></i>CONTACT</a></li>
+                <li ><a class="dada" href="blog.html" ><i class="fa fa-fw fa-comment"></i>BLOG</a></li>
+                
+            </ul>
+        </nav>
+        <div class="chenar">
+                <p class="comm"><br>Aici este locul unde puteți împărtăși cele mai interesante experiențe prin București și recomanda locurile ce v-au impresionat!</p>
+            
+                    <div class="formular">
+                        <br>Nume:<br>
+                        <input type="text" name="Nume" id="name" placeholder="Introduceti numele"><br>
+                        Comentariu:<br>
+                        <input type="text" id="comment" size="300" placeholder="Introduceti un comentariu"><br><br>
+                        <input id="buton_send1" type="submit" value="Comenteaza" onclick="submitData()">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                  
+                  <div id='responseArea'></div>
+
+                <br>
+                 </div>
+              
+    </body>
+</html>
